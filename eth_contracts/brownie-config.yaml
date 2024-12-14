@@ -1,0 +1,12 @@
+dependencies:
+  - smartcontractkit/chainlink-brownie-contracts@1.1.1
+compiler:
+  solc:
+    remappings:
+      - '@chainlink=smartcontractkit/chainlink-brownie-contracts@1.1.1'
+  networks:
+    development:
+      hardhat:
+        host: http://127.0.0.1
+        port: 8545
+        network_id: 31337
